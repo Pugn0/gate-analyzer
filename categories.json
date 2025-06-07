@@ -1,0 +1,244 @@
+{
+  "categories": {
+  "1": {
+    "name": "CMS",
+    "priority": 1
+  },
+  "2": {
+    "name": "Message boards",
+      "priority": 2
+  },
+  "3": {
+      "name": "Documentation systems",
+      "priority": 3
+  },
+  "4": {
+      "name": "Widgets",
+      "priority": 4
+  },
+  "5": {
+      "name": "Rich text editors",
+      "priority": 5
+  },
+  "6": {
+      "name": "Development",
+      "priority": 6
+  },
+  "7": {
+      "name": "LMS",
+      "priority": 7
+  },
+  "8": {
+      "name": "Web servers",
+      "priority": 8
+  },
+  "9": {
+      "name": "Web frameworks",
+      "priority": 9
+  },
+  "10": {
+    "name": "Analytics",
+      "priority": 10
+  },
+  "11": {
+    "name": "Blogs",
+      "priority": 11
+  },
+  "12": {
+    "name": "JavaScript frameworks",
+      "priority": 12
+  },
+  "13": {
+    "name": "Issue trackers",
+      "priority": 13
+  },
+  "14": {
+    "name": "Video players",
+      "priority": 14
+  },
+  "15": {
+    "name": "Comment systems",
+      "priority": 15
+  },
+  "16": {
+    "name": "Security",
+      "priority": 16
+  },
+  "17": {
+      "name": "Advertising",
+      "priority": 17
+  },
+  "18": {
+      "name": "CDN",
+      "priority": 18
+  },
+  "19": {
+      "name": "Tag managers",
+      "priority": 19
+  },
+  "20": {
+      "name": "Webmail",
+      "priority": 20
+  },
+  "21": {
+      "name": "Hosting panels",
+      "priority": 21
+  },
+  "22": {
+    "name": "Web servers",
+      "priority": 22
+  },
+  "23": {
+      "name": "Control systems",
+      "priority": 23
+  },
+  "24": {
+      "name": "Payment processors",
+      "priority": 24
+  },
+  "25": {
+      "name": "Font scripts",
+      "priority": 25
+  },
+  "26": {
+      "name": "Webcams",
+      "priority": 26
+  },
+  "27": {
+      "name": "Webinar",
+      "priority": 27
+  },
+  "28": {
+      "name": "Database",
+      "priority": 28
+  },
+  "29": {
+      "name": "Network devices",
+      "priority": 29
+  },
+  "30": {
+      "name": "Remote access",
+      "priority": 30
+  },
+  "31": {
+      "name": "Marketing automation",
+      "priority": 31
+  },
+  "32": {
+      "name": "Live chat",
+      "priority": 32
+  },
+  "33": {
+      "name": "Builders",
+      "priority": 33
+  },
+  "34": {
+      "name": "Web hosting",
+      "priority": 34
+  },
+  "35": {
+      "name": "DNS server",
+      "priority": 35
+  },
+  "36": {
+      "name": "Web frameworks",
+      "priority": 36
+  },
+  "37": {
+      "name": "Web servers",
+      "priority": 37
+  },
+  "38": {
+      "name": "Web frameworks",
+      "priority": 38
+  },
+  "39": {
+      "name": "Web frameworks",
+      "priority": 39
+    },
+    "40": {
+      "name": "Web frameworks",
+      "priority": 40
+  },
+  "41": {
+    "name": "Payment processors",
+      "priority": 41
+  },
+  "42": {
+      "name": "Payment processors",
+      "priority": 42
+    },
+    "43": {
+      "name": "Payment processors",
+      "priority": 43
+  },
+  "44": {
+      "name": "Payment processors",
+      "priority": 44
+  },
+  "45": {
+      "name": "Payment processors",
+      "priority": 45
+  },
+  "46": {
+      "name": "Payment processors",
+      "priority": 46
+  },
+  "47": {
+      "name": "Payment processors",
+      "priority": 47
+  },
+  "48": {
+      "name": "Payment processors",
+      "priority": 48
+  },
+  "49": {
+      "name": "Payment processors",
+      "priority": 49
+  },
+  "50": {
+      "name": "Payment processors",
+      "priority": 50
+  },
+  "51": {
+      "name": "Payment processors",
+      "priority": 51
+  },
+  "52": {
+      "name": "Payment processors",
+      "priority": 52
+  },
+  "53": {
+      "name": "Payment processors",
+      "priority": 53
+  },
+  "54": {
+      "name": "Payment processors",
+      "priority": 54
+  },
+  "55": {
+      "name": "Payment processors",
+      "priority": 55
+  },
+  "56": {
+      "name": "Payment processors",
+      "priority": 56
+  },
+  "57": {
+      "name": "Payment processors",
+      "priority": 57
+  },
+  "58": {
+      "name": "Payment processors",
+      "priority": 58
+  },
+  "59": {
+      "name": "JavaScript frameworks",
+      "priority": 59
+  },
+  "60": {
+      "name": "JavaScript frameworks",
+      "priority": 60
+    }
+  }
+}

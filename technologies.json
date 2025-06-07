@@ -1,0 +1,548 @@
+{
+  "technologies": {
+    "frameworks": {
+      "React": {
+        "cats": [59],
+        "description": "React is a JavaScript library for building user interfaces.",
+        "js": {
+          "React": "",
+          "ReactDOM": "",
+          "React.version": "^([\\d.]+)\\;version:\\1"
+        },
+        "scriptSrc": [
+          "react(?:\\.min)?\\.js",
+          "react-dom(?:\\.min)?\\.js"
+        ],
+        "website": "https://reactjs.org"
+      },
+      "Vue.js": {
+        "cats": [59],
+        "description": "Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+        "js": {
+          "Vue": "",
+          "Vue.version": "^([\\d.]+)\\;version:\\1"
+        },
+        "scriptSrc": [
+          "vue(?:\\.min)?\\.js",
+          "vue-router(?:\\.min)?\\.js"
+        ],
+        "website": "https://vuejs.org"
+      },
+      "Angular": {
+        "cats": [59],
+        "description": "Angular is a platform for building mobile and desktop web applications.",
+        "js": {
+          "angular": "",
+          "angular.version": "^([\\d.]+)\\;version:\\1"
+        },
+        "scriptSrc": [
+          "angular(?:\\.min)?\\.js",
+          "ng-"
+        ],
+        "website": "https://angular.io"
+      }
+    },
+    "cms": {
+      "WordPress": {
+        "cats": [1],
+        "description": "WordPress is a free and open-source content management system.",
+        "cookies": {
+          "wordpress_": "",
+          "wp-settings-": ""
+        },
+        "js": {
+          "wp-": "",
+          "wp_": ""
+        },
+        "meta": {
+          "generator": "WordPress(?: ([\\d.]+))?\\;version:\\1"
+        },
+        "scriptSrc": [
+          "wp-content",
+          "wp-includes"
+        ],
+        "website": "https://wordpress.org"
+      },
+      "Drupal": {
+        "cats": [1],
+        "description": "Drupal is a free and open-source content management framework.",
+        "cookies": {
+          "SESS": "drupal"
+        },
+        "js": {
+          "Drupal": "",
+          "Drupal.settings": ""
+        },
+        "meta": {
+          "generator": "Drupal(?: ([\\d.]+))?\\;version:\\1"
+        },
+        "scriptSrc": [
+          "drupal.js",
+          "drupal.css"
+        ],
+        "website": "https://www.drupal.org"
+      }
+    },
+    "servers": {
+      "Nginx": {
+        "cats": [22],
+        "description": "Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.",
+        "headers": {
+          "Server": "nginx(?:/([\\d.]+))?\\;version:\\1"
+        },
+        "website": "https://nginx.org"
+      },
+      "Apache": {
+        "cats": [22],
+        "description": "Apache is a free and open-source cross-platform web server software.",
+        "headers": {
+          "Server": "Apache(?:/([\\d.]+))?\\;version:\\1"
+        },
+        "website": "https://httpd.apache.org"
+      }
+    },
+    "analytics": {
+      "Google Analytics": {
+        "cats": [10],
+        "description": "Google Analytics is a web analytics service offered by Google.",
+        "cookies": {
+          "_ga": "",
+          "_gid": ""
+        },
+        "js": {
+          "ga": "",
+          "gaq": "",
+          "GoogleAnalyticsObject": ""
+        },
+        "scriptSrc": [
+          "google-analytics.com/ga.js",
+          "google-analytics.com/analytics.js",
+          "googletagmanager.com/gtag/js"
+        ],
+        "website": "https://analytics.google.com"
+      },
+      "Facebook Pixel": {
+        "cats": [10],
+        "description": "Facebook Pixel is an analytics tool that allows you to measure the effectiveness of your advertising.",
+        "cookies": {
+          "_fbp": ""
+        },
+        "js": {
+          "fbq": "",
+          "FB": ""
+        },
+        "scriptSrc": [
+          "connect.facebook.net",
+          "facebook.com/tr"
+        ],
+        "website": "https://www.facebook.com/business/help/742478679120153"
+      }
+    },
+    "security": {
+      "reCAPTCHA": {
+        "cats": [16],
+        "description": "reCAPTCHA is a CAPTCHA system that enables web hosts to distinguish between human and automated access to websites.",
+        "js": {
+          "grecaptcha": "",
+          "recaptcha": ""
+        },
+        "scriptSrc": [
+          "recaptcha",
+          "grecaptcha"
+        ],
+        "website": "https://www.google.com/recaptcha"
+      },
+      "Cloudflare": {
+        "cats": [16],
+        "description": "Cloudflare is a web infrastructure and website security company.",
+        "headers": {
+          "Server": "cloudflare",
+          "cf-ray": ""
+        },
+        "website": "https://www.cloudflare.com"
+      }
+    },
+    "payment": {
+      "Stripe": {
+        "cats": [41],
+        "description": "Stripe is a technology company that builds economic infrastructure for the internet.",
+        "js": {
+          "Stripe": "",
+          "stripe": "",
+          "stripeElements": "",
+          "stripeCheckout": ""
+        },
+        "scriptSrc": [
+          "stripe.com/v3",
+          "stripe.js",
+          "stripe-elements",
+          "stripe-checkout"
+        ],
+        "meta": {
+          "stripe-publishable-key": ""
+        },
+        "website": "https://stripe.com"
+      },
+      "PayPal": {
+        "cats": [41],
+        "description": "PayPal is an American company operating a worldwide online payments system.",
+        "js": {
+          "paypal": "",
+          "PAYPAL": "",
+          "paypalCheckout": "",
+          "paypalButton": ""
+        },
+        "scriptSrc": [
+          "paypal.com",
+          "paypalobjects.com",
+          "paypal-checkout",
+          "paypal-button"
+        ],
+        "meta": {
+          "paypal-client-id": ""
+        },
+        "website": "https://www.paypal.com"
+      },
+      "Cielo": {
+        "cats": [41],
+        "description": "Cielo is a Brazilian payment processing company.",
+        "js": {
+          "Cielo": "",
+          "cielo": "",
+          "cieloCheckout": ""
+        },
+        "scriptSrc": [
+          "cielo.com.br",
+          "cieloecommerce.cielo.com.br",
+          "cielo-checkout"
+        ],
+        "meta": {
+          "cielo-merchant-id": ""
+        },
+        "website": "https://www.cielo.com.br"
+      },
+      "Rede": {
+        "cats": [41],
+        "description": "Rede is a Brazilian payment processing company.",
+        "js": {
+          "Rede": "",
+          "rede": "",
+          "redeCheckout": ""
+        },
+        "scriptSrc": [
+          "rede.com.br",
+          "redecard.com.br",
+          "rede-checkout"
+        ],
+        "meta": {
+          "rede-merchant-id": ""
+        },
+        "website": "https://www.userede.com.br"
+      },
+      "Stone": {
+        "cats": [41],
+        "description": "Stone is a Brazilian payment processing company.",
+        "js": {
+          "Stone": "",
+          "stone": "",
+          "stoneCheckout": ""
+        },
+        "scriptSrc": [
+          "stone.com.br",
+          "stone-payments",
+          "stone-checkout"
+        ],
+        "meta": {
+          "stone-merchant-id": ""
+        },
+        "website": "https://www.stone.com.br"
+      },
+      "GetNet": {
+        "cats": [41],
+        "description": "GetNet is a Brazilian payment processing company.",
+        "js": {
+          "GetNet": "",
+          "getnet": "",
+          "getnetCheckout": ""
+        },
+        "scriptSrc": [
+          "getnet.com.br",
+          "getnet-checkout",
+          "getnet-payments"
+        ],
+        "meta": {
+          "getnet-merchant-id": ""
+        },
+        "website": "https://www.getnet.com.br"
+      },
+      "Mercado Pago": {
+        "cats": [41],
+        "description": "Mercado Pago is a payment platform from Mercado Libre.",
+        "js": {
+          "MercadoPago": "",
+          "mercadopago": "",
+          "mpCheckout": "",
+          "mpButton": ""
+        },
+        "scriptSrc": [
+          "mercadopago.com",
+          "mercadolibre.com",
+          "mp-checkout",
+          "mp-button"
+        ],
+        "meta": {
+          "mercadopago-public-key": ""
+        },
+        "website": "https://www.mercadopago.com.br"
+      },
+      "PagSeguro": {
+        "cats": [41],
+        "description": "PagSeguro is a Brazilian payment service provider.",
+        "js": {
+          "PagSeguro": "",
+          "pagseguro": "",
+          "psCheckout": "",
+          "psButton": ""
+        },
+        "scriptSrc": [
+          "pagseguro.com",
+          "pagseguro.uol.com.br",
+          "ps-checkout",
+          "ps-button"
+        ],
+        "meta": {
+          "pagseguro-email": ""
+        },
+        "website": "https://www.pagseguro.com.br"
+      },
+      "Pix": {
+        "cats": [41],
+        "description": "Pix is an instant payment system in Brazil.",
+        "js": {
+          "Pix": "",
+          "pix": "",
+          "pixPayment": "",
+          "pixCheckout": ""
+        },
+        "scriptSrc": [
+          "pix.bcb.gov.br",
+          "pix-payment",
+          "pix-checkout",
+          "pix-button"
+        ],
+        "meta": {
+          "pix-key": ""
+        },
+        "website": "https://www.bcb.gov.br/pix"
+      },
+      "Boleto": {
+        "cats": [41],
+        "description": "Boleto is a Brazilian payment method.",
+        "js": {
+          "Boleto": "",
+          "boleto": "",
+          "boletoPayment": "",
+          "boletoCheckout": ""
+        },
+        "scriptSrc": [
+          "boleto",
+          "boleto-payment",
+          "boleto-checkout",
+          "boleto-button"
+        ],
+        "meta": {
+          "boleto-enabled": ""
+        },
+        "website": "https://www.bcb.gov.br/boleto"
+      },
+      "Shopify Payments": {
+        "cats": [41],
+        "description": "Shopify Payments is a payment processing service by Shopify.",
+        "js": {
+          "Shopify": "",
+          "shopify-payment": "",
+          "shopifyCheckout": ""
+        },
+        "scriptSrc": [
+          "shopify.com/payments",
+          "shopify-payment",
+          "shopify-checkout"
+        ],
+        "meta": {
+          "shopify-payment-enabled": ""
+        },
+        "website": "https://www.shopify.com/payments"
+      },
+      "WooCommerce Payments": {
+        "cats": [41],
+        "description": "WooCommerce Payments is a payment processing service for WooCommerce.",
+        "js": {
+          "WooCommerce": "",
+          "wc-payment": "",
+          "wcCheckout": ""
+        },
+        "scriptSrc": [
+          "woocommerce.com/payments",
+          "wc-payment",
+          "wc-checkout"
+        ],
+        "meta": {
+          "wc-payment-enabled": ""
+        },
+        "website": "https://woocommerce.com/payments"
+      },
+      "Square": {
+        "cats": [41],
+        "description": "Square is a financial services and digital payments company.",
+        "js": {
+          "Square": "",
+          "square": "",
+          "squareCheckout": "",
+          "squareButton": ""
+        },
+        "scriptSrc": [
+          "square.com",
+          "squareup.com",
+          "square-checkout",
+          "square-button"
+        ],
+        "meta": {
+          "square-application-id": ""
+        },
+        "website": "https://squareup.com"
+      },
+      "Adyen": {
+        "cats": [41],
+        "description": "Adyen is a Dutch payment company.",
+        "js": {
+          "Adyen": "",
+          "adyen": "",
+          "adyenCheckout": ""
+        },
+        "scriptSrc": [
+          "adyen.com",
+          "adyen-payment",
+          "adyen-checkout"
+        ],
+        "meta": {
+          "adyen-merchant-account": ""
+        },
+        "website": "https://www.adyen.com"
+      },
+      "Klarna": {
+        "cats": [41],
+        "description": "Klarna is a Swedish fintech company providing online financial services.",
+        "js": {
+          "Klarna": "",
+          "klarna": "",
+          "klarnaCheckout": "",
+          "klarnaButton": ""
+        },
+        "scriptSrc": [
+          "klarna.com",
+          "klarna-payment",
+          "klarna-checkout",
+          "klarna-button"
+        ],
+        "meta": {
+          "klarna-merchant-id": ""
+        },
+        "website": "https://www.klarna.com"
+      },
+      "Afterpay": {
+        "cats": [41],
+        "description": "Afterpay is a buy now, pay later service.",
+        "js": {
+          "Afterpay": "",
+          "afterpay": "",
+          "afterpayCheckout": "",
+          "afterpayButton": ""
+        },
+        "scriptSrc": [
+          "afterpay.com",
+          "afterpay-payment",
+          "afterpay-checkout",
+          "afterpay-button"
+        ],
+        "meta": {
+          "afterpay-merchant-id": ""
+        },
+        "website": "https://www.afterpay.com"
+      },
+      "Affirm": {
+        "cats": [41],
+        "description": "Affirm is a financial technology company.",
+        "js": {
+          "Affirm": "",
+          "affirm": "",
+          "affirmCheckout": "",
+          "affirmButton": ""
+        },
+        "scriptSrc": [
+          "affirm.com",
+          "affirm-payment",
+          "affirm-checkout",
+          "affirm-button"
+        ],
+        "meta": {
+          "affirm-public-key": ""
+        },
+        "website": "https://www.affirm.com"
+      },
+      "Vindi": {
+        "cats": [41],
+        "description": "Vindi is a Brazilian payment processing platform.",
+        "js": {
+          "Vindi": "",
+          "vindi": "",
+          "vindiCheckout": ""
+        },
+        "scriptSrc": [
+          "vindi.com.br",
+          "vindi-payment",
+          "vindi-checkout"
+        ],
+        "meta": {
+          "vindi-api-key": ""
+        },
+        "website": "https://www.vindi.com.br"
+      },
+      "Ebanx": {
+        "cats": [41],
+        "description": "EBANX is a Brazilian payment processing company.",
+        "js": {
+          "Ebanx": "",
+          "ebanx": "",
+          "ebanxCheckout": ""
+        },
+        "scriptSrc": [
+          "ebanx.com",
+          "ebanx-payment",
+          "ebanx-checkout"
+        ],
+        "meta": {
+          "ebanx-public-key": ""
+        },
+        "website": "https://www.ebanx.com"
+      },
+      "Moip": {
+        "cats": [41],
+        "description": "Moip is a Brazilian payment processing company.",
+        "js": {
+          "Moip": "",
+          "moip": "",
+          "moipCheckout": ""
+        },
+        "scriptSrc": [
+          "moip.com.br",
+          "moip-payment",
+          "moip-checkout"
+        ],
+        "meta": {
+          "moip-token": ""
+        },
+        "website": "https://www.moip.com.br"
+      }
+    }
+  }
+} 
